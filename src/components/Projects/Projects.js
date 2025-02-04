@@ -6,7 +6,7 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import tindog from "../../Assets/Tindog.PNG"
-import amazon from "../../Assets/Amazon.png";
+import amazon from "../../Assets/Amazon.PNG";
 import blog from "../../Assets/Blog.PNG";
 import todo from "../../Assets/TODO.PNG"
 
