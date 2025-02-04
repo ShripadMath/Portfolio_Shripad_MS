@@ -8,14 +8,15 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Darshil Modi </span>
-            from <span className="purple"> Mumbai, India.</span>
-            <br /> I am currently a first-year student pursuing a Master's degree in Computer Science at Syracuse University, where I am actively engaged in expanding my knowledge and skills in the field of computer science.
+            Hi Everyone, I am <span className="purple">Shripad Sunil Mathekar </span> 
+            from <span className="purple">  Pune, India.</span>
+            <br /> 
+            I am a second-year Master's student in Computer Science at Syracuse University, actively refining my technical expertise and expanding my knowledge in the field.
             <br />
-            In addition, I am actively exploring the fascinating realms of blockchain technology, further augmenting my understanding and proficiency in cutting-edge technological advancements.
+            In addition, I have 4 years of work experience as a Data Engineer at Infosys and KPMG, where I specialized in building and optimizing data pipelines using Hadoop, Spark, AWS, and Python development.
             <br />
             <br />
-            Life apart from coding !
+            Life beyond coding !
           </p>
           <ul>
             <li className="about-activity">
@@ -28,11 +29,6 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Don't Dream Your Life, Live Your Dream"{" "}
-          </p>
-          <footer className="blockquote-footer">Darshil</footer>
         </blockquote>
       </Card.Body>
     </Card>

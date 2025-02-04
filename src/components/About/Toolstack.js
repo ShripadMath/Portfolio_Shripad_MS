@@ -3,28 +3,35 @@ import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
   SiNotepadplusplus,
-  SiAtom,
+  SiJupyter,
+  SiAnaconda,
 } from "react-icons/si";
 
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://code.visualstudio.com/docs">
+        <a>
         <SiVisualstudiocode />
+        <h6> Visual Studio Code </h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://github.com/atom/atom">
-        <SiAtom />
+        <a>
+        < SiJupyter/>
+        <h6> Jupyter </h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://npp-user-manual.org/">
-        <SiNotepadplusplus />  
+        <a>
+        <SiAnaconda/> 
+        <h6> Anaconda </h6>  
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a>
+        < SiNotepadplusplus/>  
+        <h6> Notepad++ </h6>
         </a>
       </Col>
     </Row>

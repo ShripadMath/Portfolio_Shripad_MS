@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-import img from "../../Assets/darshil.PNG";
+import img from "../../Assets/darshil.jpeg";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -22,35 +22,36 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am a Full Stack Developer proficient in both front-end and back-end technologies, creating seamless web applications.
+            I am a Data Engineer skilled in building and optimizing data pipelines, working with technologies like Hadoop, Spark, AWS, and Python, enabling efficient data processing and analysis for impactful business insights.
               <br />
               <br />I am fluent in languages like
               <i>
-                <b className="purple"> C++, Javascript, Java and Python<strong>.</strong></b> 
+                <b className="purple"> Python,Spark,SQL and Java <strong>.</strong></b> 
               </i>
               <br />
               <br />
-              My field of Interest's are building new {}
+              
+              My areas of interest include designing and optimizing {}
               <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
+                <b className="purple">ETL pipelines </b> and
+                building infrastructure solutions using {" "}
                 <b className="purple">
-                  Blockchain.
+                  Spark.
                 </b>
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
+              Whenever possible, I also apply my passion for developing tools
+              with <b className="purple">Python</b> and
               <i>
                 <b className="purple">
                   {" "}
-                  Modern Javascript Library and Frameworks {}
+                  Modern GenAI models {}
                 </b>
               </i>
               {} like
               <i>
-                <b className="purple"> React.js.</b>
+                <b className="purple"> ChatGpt and lama</b>
               </i>
             </p>
           </Col>
@@ -69,7 +70,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/darsh-foryou"
+                  href="https://github.com/ShripadMath"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -79,7 +80,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://wa.me/7715097096"
+                  href="https://wa.me/+16402291683"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -89,7 +90,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/darshil-modi-a76759213/"
+                  href="https://www.linkedin.com/in/shripad-mathekar-jan97/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -99,7 +100,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://instagram.com/darshil_modii?igshid=OGQ5ZDc2ODk2ZA=="
+                  href="https://www.instagram.com/shripad_mathekar?igsh=cGd5NWdhY25peHA1&utm_source=qr"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

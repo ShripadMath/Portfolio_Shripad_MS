@@ -2,21 +2,23 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
-  DiGit,
+  DiMysql,
+  DiSpark,
+  DiAws,
   DiJava,
-  DiDocker,
+  DiMongodb,
+  DiGit,
+  DiBitbucket,
 } from "react-icons/di";
 import {
-  SiSqlite,
-  SiC,
-  SiExpress,
-  SiFirebase,
-  SiSolidity,
+  SiApachehadoop,
+  SiApachehive,
+  SiSnowflake,
+  SiApacheairflow,
+  SiAmazon,
+
+ 
 } from "react-icons/si";
 import { TbBrandGolang } from "react-icons/tb";
 
@@ -27,79 +29,84 @@ function Techstack() {
         <CgCPlusPlus />
       </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://www.javascript.com/"> 
-        <DiJavascript1 />
+        <a> 
+          <DiPython/>
+          <h6> Python</h6>
           </a>
         
       </Col>
       {/* <Col xs={4} md={2} className="tech-icons">
         <TbBrandGolang />
       </Col> */}
+      {/* <Col xs={4} md={2} className="tech-icons">
+        <a>
+          <DiAws/></a>
+      </Col> */}
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        
-        href="https://nodejs.org/en/docs"><DiNodejs /></a>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://react.dev/learn">
-        <DiReact />  
+        <a>
+        <DiMysql />  
+        <h6> Mysql</h6>
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://docs.soliditylang.org/en/v0.8.21/">
-        <SiSolidity />  
+        <a>
+        <DiSpark /> 
+        <h6> Spark</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://www.mongodb.com/docs/manual/core/document/">
-        <DiMongodb />  
+        <a>
+        <SiAmazon />
+        <h6> AWS</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://www.sqlite.org/docs.html">
-          <SiSqlite />
+        <a>
+          <DiJava />
+          <h6> Java</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://expressjs.com/en/5x/api.html">
-        <SiExpress />
+        <a>
+        <DiMongodb />
+        <h6> MongoDB</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://docs.docker.com/reference/">
-          <DiDocker/>
+        <a>
+          <DiGit/>
+          <h6> Git</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://devdocs.io/c/">
-          <SiC />
+        <a>
+          <DiBitbucket />
+          <h6> Bitbucket</h6> 
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://firebase.google.com/docs">
-        <SiFirebase />  
+        <a>
+        <SiApachehadoop />  
+        <h6> Hadoop</h6> 
         </a>
       </Col>
       
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://docs.python.org/3/">
-        <DiPython/>  
+        <a>
+        <SiApachehive/> 
+        <h6> Hive</h6>  
         </a>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <a
-        href="https://docs.oracle.com/en/java/">
-        <DiJava /> 
+        <a>
+        <SiSnowflake /> 
+        <h6> Snowflake</h6> 
+        </a>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <a>
+        <SiApacheairflow /> 
+        <h6> Airflow</h6> 
         </a>
       </Col>
     </Row>

@@ -14,16 +14,16 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Developed by Darshil Modi</h3>
+          <h3>Developed by Shripad Sunil Mathekar</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} DM</h3>
+          <h3>Copyright © {year} SM</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/darsh-foryou"
+                href="https://github.com/ShripadMath"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -43,7 +43,7 @@ function Footer() {
             </li> */}
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/darshil-modi-a76759213/"
+                href="https://www.linkedin.com/in/shripad-mathekar-jan97"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
@@ -53,7 +53,7 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://instagram.com/darshil_modii?igshid=OGQ5ZDc2ODk2ZA=="
+                href="https://www.instagram.com/shripad_mathekar?igsh=cGd5NWdhY25peHA1&utm_source=qr"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
